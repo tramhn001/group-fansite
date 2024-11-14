@@ -18,5 +18,15 @@ img:hover {
     align-items: center;
     margin-inline: 10%;
     padding: 2%;
-    background-color: rgba(210, 189, 156, 0.25);
+    background-color: rgba(210, 189, 156, 0.565);
+}
+
+main {
+    background-image: url("../assets/austin-photos/h-kerry-chipman-PCDtXuVtqYQ-unsplash Large.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 100px;
 }
