@@ -38,6 +38,23 @@
     font-style: normal;
 }
 
+body {
+    /* font-family: Arial, sans-serif; */
+    background-color: #FDFFFC;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+  background-image: url("../assets/austin-photos/h-kerry-chipman-PCDtXuVtqYQ-unsplash Large.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
 #footer-section-one, #footer-text {
     display: flex;
     justify-content: center;
