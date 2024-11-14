@@ -46,13 +46,17 @@ body {
 }
 
 main {
-  background-image: url("../assets/austin-photos/h-kerry-chipman-PCDtXuVtqYQ-unsplash Large.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  text-align: center;
-  margin: auto;
-  padding-bottom: 100px;
+    background-image: url("../assets/austin-photos/h-kerry-chipman-PCDtXuVtqYQ-unsplash Large.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+h1 {
+    margin: 0;
 }
 
 #footer-section-one, #footer-text {
