@@ -1,5 +1,11 @@
 body {
+    background-image: url("../assets/austin-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
+    margin: auto;
+    width: 70%;
 }
 
 h1 {
@@ -7,18 +13,25 @@ h1 {
     color: green;
 }
 
+h2,
+h3 {
+    font-family: helvetica;
+    color: white;
+}
+
 li {
     display: inline;
-    padding: 5em;
+    padding: 3em;
 }
 
 p {
     border: 1px solid black;
-    padding: 5em;
+    padding: 3em;
+    background-color: orange;
 }
 
 footer {
-    position: absolute;
+    position: flexbox;
     bottom: 0;
     background-color: pink;
     text-align: center;
