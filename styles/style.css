@@ -27,7 +27,8 @@ li {
 p {
     border: 1px solid black;
     padding: 3em;
-    background-color: orange;
+    background-color: rgba(255, 165, 0, 0.6); /* Opaque orange background with 60% opacity */
+    color: white;
 }
 /* 
 footer {
