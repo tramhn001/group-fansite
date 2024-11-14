@@ -7,11 +7,11 @@ body {
     margin: auto;
     width: 70%;
 }
-
+/* 
 h1 {
     font-family: Papyrus;
     color: green;
-}
+} */
 
 h2,
 h3 {
@@ -29,7 +29,7 @@ p {
     padding: 3em;
     background-color: orange;
 }
-
+/* 
 footer {
     position: flexbox;
     bottom: 0;
@@ -43,4 +43,4 @@ footer {
     font-weight: bold;
     border: none;
     padding: 0em;
-}
+} */
