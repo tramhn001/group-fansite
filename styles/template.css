@@ -1,0 +1,81 @@
+/* Start of Header and Footer Styling */
+.nav-links a,
+.footer-links a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#standard-nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 50px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+#city-title {
+    font-weight: bold;
+    font-size: 40px;
+    width: 70%;
+}
+
+.nav-links {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links:hover {
+    font-size: bold;
+    border-bottom: 5px solid black;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#footer-section-one, #footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #FCFFFC;
+}
+
+#footer-section-one {
+    background-color: #151515;
+}
+#footer-text {
+    background-color: #000000;
+}
+
+#footer-section-one ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links {
+    padding: 25px 100px;
+}
+
+.footer-links .material-symbols-outlined {
+    font-size: 50px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.footer-links .material-symbols-outlined:hover {
+    transform: scale(1.2);
+    color: lightgrey;
+}
+
+#footer-text {
+    padding: 25px 0;
+    margin: 0;
+}
+/* End of Header and Footer Styling */
