@@ -1,9 +1,4 @@
-/* .gallery-photo {
-    border-radius: 8px;
-    height: 10%;
-} */
 img {
-    display: inline-block;
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
@@ -12,4 +7,11 @@ img {
     
 img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
