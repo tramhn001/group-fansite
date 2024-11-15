@@ -13,3 +13,20 @@
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+.subtitle-left {
+    grid-column: 1/2;
+}
+
+.subtitle-right {
+    grid-column: 4/5;
+}
+
+.text-right {
+    grid-column: 2/span 3;
+}
+
+.text-left {
+    grid-column: 1/4;
+    order: n-1 ;
+}
