@@ -24,9 +24,23 @@ h1 {
 
 .section {
     background-color: #ffffff;
-    opacity: 0.95;
+    opacity: 0.85;
     margin: 50px;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#facts, #did-you-know {
+    text-align: left;
+}
+
+#facts ul li, 
+#did-you-know ul li {
+    padding: 5px 0;
+}
+
+.bold {
+    font-weight: bold;
+    font-style: italic;
 }
